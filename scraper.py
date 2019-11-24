@@ -3,12 +3,8 @@ import grequests
 from urllib.request import urlopen, Request
 from bs4 import BeautifulSoup
 from gamelogs import Gamelogs
-from schools import Schools
 from export import CSV
 from gamelogsurls import GamelogUrls
-from random_user_agent.user_agent import UserAgent
-from random_user_agent.params import SoftwareName, OperatingSystem
-
 
 year = None
 is_valid = None
